@@ -235,21 +235,22 @@ body::after {
     right: 31%;
 }
 
-#carouselControl a {
+#carouselControl span {
     color: rgb(var(--primary));
     transition: all .3s ease;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
-#carouselControl a:hover {
+#carouselControl span:hover {
     color: rgb(var(--secondary));
 }
 
-#carouselControl a:hover:first-child {
+#carouselControl span:hover:first-child {
     padding-right: 5px
 }
 
-#carouselControl a:hover:last-child {
+#carouselControl span:hover:last-child {
     padding-left: 5px
 }
 
