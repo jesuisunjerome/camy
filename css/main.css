@@ -454,7 +454,7 @@ body::after {
 }
 
 /*OVERLAY*/
-/*#overlay {
+#overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -484,7 +484,7 @@ body::after {
     width: 100%;
     background: #fff;
     animation: reveal1 3s ease-out forwards;
-}*/
+}
 
 @keyframes reveal {
     50% {
